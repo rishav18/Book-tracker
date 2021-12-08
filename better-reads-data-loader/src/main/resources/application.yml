@@ -1,9 +1,14 @@
+spring.application.name: better-reads
+
+datadump.location:
+  author: C:\Users\risha\Downloads\test-authors.txt
+  works: C:\Users\risha\Downloads\test-works.txt
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: <username>
-      password: <password>
+      username: PBRqCTEeXZWmgLbASlOSQgMU
+      password: TdbZo.n6ZQXMluN6RkMdD1BdQTWS085QY6mtN+RWZklkqlYA+q2qDoaZl6y2S83D7unUtiFbJwLWhruwP0M_d+kO3jW+L9AvyQ9pHBUSaZWaQzMJNllxYoeb2Xj_ELXW
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -15,10 +20,10 @@ datastax.astra:
     secure-connect-bundle: secure-connect.zip
 
 astra.db:
-        id: <id>
-        region: Asia Pacific
+        id: 94f84642-f21e-4474-bfbf-451f984f3045-1
+        region: australiaeast
         keyspace: main
-        application.token: <token>
+        application.token: AstraCS:PBRqCTEeXZWmgLbASlOSQgMU:c8e4e16de3f37f551922b878c4f94e96640f80fd3fba87083d2493c7a5bbb4f4
       
 
       
